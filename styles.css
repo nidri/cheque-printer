@@ -1,12 +1,95 @@
-*, *::after, *::before {
+/* *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
+   
   }
   
   html {
-      font-family: 'Poppins', sans-serif;
+     
       background: var(--bg-color);
       color: var(--text-color);
+  } */
+
+
+
+  body{
+  font-family:  monospace;
+  font-size: 12pt;
+  text-decoration: none;
   }
+
+
+.cheque-container{
+    position: relative;
+    top:0;
+    left:0;
+background-color: aqua;
+width: 202mm;
+height: 78mm;
+/* margin: 13px auto;
+padding: auto; */
+
+}
+
+
+#date{
+position: absolute; 
+top:6.5mm;
+left:0;
+ right:9mm;
+letter-spacing: 8px;
+display: flex;
+justify-content: flex-end;
+
+}
+.pay{
+    text-decoration: underline;
+    position:absolute;
+ top:24.5mm ; 
+left: 8mm;
+width:94mm;
+}
+
+  #name{
+position:absolute;
+ top:24.5mm ; 
+left: 18mm;
+text-decoration: underline;
+  }
+
+  .rupees{
+    text-decoration: underline;
+    position:absolute;
+ top:33mm ; 
+left: 8mm;
+width:94mm;
+line-height: 8.5mm;
+}
+
+
+#amount-letters{
+    text-decoration: underline;
+    position:absolute;
+ top:33mm ; 
+ left: 8mm;
+ width: 130mm;
+  }
+.amount-words{
+    padding-left: 30mm;
+    line-height: 8.5mm;
+}
+
+
+  #amount{
+position: absolute;
+top:39.5mm;
+right: 10mm;
+width: 39mm;
+display: flex;
+justify-content: flex-end;
+}
+
+ 
+
